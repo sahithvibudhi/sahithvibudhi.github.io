@@ -40,5 +40,14 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Nunito:wght@200`,
+        ],
+        display: 'swap'
+      }
+    }
   ],
 };
