@@ -4,7 +4,7 @@ module.exports = {
     title: "portfolio",
   },
   plugins: [
-    "gatsby-plugin-sass",
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
@@ -12,7 +12,7 @@ module.exports = {
       },
     },
     "gatsby-plugin-sharp",
-    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sass",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-offline",
     {
