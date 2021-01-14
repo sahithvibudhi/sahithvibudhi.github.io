@@ -4,6 +4,7 @@ import Layout from "../components/profile-layout";
 import Intro from "../components/intro";
 import About from "../components/about";
 import Experience from "../components/experience";
+import Footer from "../components/footer";
 
 
 // markup
@@ -13,6 +14,7 @@ const IndexPage = () => {
       <Intro/>
       <About/>
       <Experience/>
+      <Footer/>
     </Layout>
   )
 }
