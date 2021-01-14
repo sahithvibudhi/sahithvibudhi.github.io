@@ -10,7 +10,9 @@ export default () => {
               <h1 className="name-container">My name is <span className="font-weight-bold">Sahith Vibudhi</span></h1>
               <h2 className="lead">I am a <span className="text-primary">Software Engineer</span></h2>
               <p className="pt-4">
-                <button type="button" className="btn btn-primary">Resume</button>
+                <a href='https://docs.google.com/document/d/1hWvaeUdtxt4e2S4dkr2ct_87WjaAP1frqQVblBWNdh8/edit?usp=sharing' target='_blank'>
+                  <button type="button" className="btn btn-primary">Resume</button>
+                </a>
               </p>
             </div>
           </div>
