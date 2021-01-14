@@ -5,7 +5,7 @@ const skills = ['HTML & (S)CSS', 'Bootstrap', 'Javascript', 'JQuery', 'Typescrip
 
 export default () => {
     return <div className='container mt-5 about'>
-            <h3>About me:</h3>
+            <h3>About me</h3>
             <p>I have 4 years of experience as a Software Engineer. I love using <a href='https://basecamp.com/shapeup'>Shape Up</a> process to convert ideas into robust and scalable software products. for the past few years, I have been doing full-stack development for Startups that went from prototype to Series-B in a very short time.</p>
             <p>List of technologies I have worked with:</p>
             <ul className='row custom-ul'>

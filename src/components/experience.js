@@ -48,9 +48,9 @@ export default () => {
 
     return <div className='mt-5 experience'>
             <div className='container pt-5'>
-                <h3>Experience:</h3>
+                <h3>Experience</h3>
                 <div className='row'>
-                    <div className='col-md-4 company-container'>
+                    <div className='col-md-4 mb-4 company-container'>
                         <ul className='custom-ul mt-3 p-0'>
                             { experience.map((val, idx) => <li className={'cursor-pointer pt-2 ' + (idx === active ? 'active' : '')} onClick={ () => setActive(idx) } >{val.title} @ <b>{val.company}</b></li>) }
                         </ul>

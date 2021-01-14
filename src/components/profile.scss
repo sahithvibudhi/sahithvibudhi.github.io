@@ -23,19 +23,6 @@ $primary: #8983fd;
     animation-iteration-count: infinite;
 }
 
-
-@media only screen and (max-width: 600px) {
-    .name-container {
-        font-size: 1.55em;
-    }
-    .intro {
-        .img-container {
-            margin-top: 30px;
-            // display: none;
-        }
-    }
-}
-
 .custom-ul{
     margin: 0.75em 0;
     padding: 0 1em;
@@ -61,6 +48,24 @@ $primary: #8983fd;
         .active {
             font-size: large;
             color: $primary;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .name-container {
+        font-size: 1.55em;
+    }
+    .intro {
+        .img-container {
+            margin-top: 30px;
+            // display: none;
+        }
+    }
+    .experience {
+        .company-container {
+            border: none;
+            border-right: solid 4px $primary;
         }
     }
 }
